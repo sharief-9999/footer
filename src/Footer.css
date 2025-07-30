@@ -1,0 +1,220 @@
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+i{
+    color: #f3b333;
+    font-size: 25px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;           /* Space between person1 and person2 */
+    margin: 10px 0 0 0;  /* Top margin for separation from heading */
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.person1, .person2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin: 0 8px;
+    min-width: 220px;
+   
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .person1, .person2 {
+    min-width: unset;
+    padding: 12px 8px;
+    border-radius: 10px;
+    border: 2px solid #f3b333; /* Keep border on small screens */
+  }
+}
+
+.person1 h4, .person2 h4 {
+    margin: 8px 0 0 0;
+    text-align: center;
+}
+
+.person1 .icons, .person2 .icons {
+    margin: 12px 0 8px 0;
+}
+
+/* Make footer and its sections fit the screen */
+footer {
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove top margin */
+    background: linear-gradient(90deg, #0a1124 0%, #14213d 100%);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    padding: 0; /* Remove default padding */
+}
+
+/* Remove margin from body to ensure full width */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.section1, .section2 {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px 40px 32px;
+    min-width: 0;
+}
+
+.section1 {
+    width: 40%;
+}
+
+.section2 {
+    width: 60%;
+}
+
+.yellow{
+    color : #f3b333;
+    display : inline-block;
+    font-weight: bolder;
+}
+
+.yellow h2{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.yellow p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.divider {
+    width: 2px;                /* Much thinner */
+    height: 95%;               /* Much longer */
+    min-height: 400px;         /* Ensures it's visibly long */
+    background: linear-gradient(
+        to bottom,
+        rgba(243, 179, 51, 1) 0%,
+        rgba(243, 179, 51, 0.7) 50%,
+        rgba(243, 179, 51, 0.3) 100%
+    );
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(243, 179, 51, 0.4);
+    align-self: center;
+    margin: 0 24px;
+    display: block;
+}
+h3{
+    margin : 18px 0 0 0;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.para {
+  border: 2px solid #f3b333;
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin: 18px 0;
+  background: transparent;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .images {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .section1, .section2 {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 16px 8px 24px 8px;
+  }
+  .logo, .image {
+    width: 140px;
+    height: 140px;
+  }
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    min-height: unset;
+    padding: 0;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .section1, .section2 {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 8px 4px 16px 4px;
+  }
+  .logo, .image {
+    width: 100px;
+    height: 100px; padding: 12px 8px;
+  }r-radius: 10px;
+  h3 { /* Keep border on small screens */
+    font-size: 1.1em;
+  }
+  .yellow h2 {
+    font-size: 1.2em;x;
+  }
+  .person1, .person2 {0px;
+    padding: 12px 8px; font-size: 0.95em;
+  }   text-align: center;
+
+
+
+
+
+
+
+
+
+
+}  }    background: transparent;    text-align: center;    font-size: 0.95em;    margin: 12px 10px 16px 10px;    padding: 10px 8px;    border-radius: 10px;    border: 2px solid #f3b333;  .para {    background: transparent;
+  }
+}
