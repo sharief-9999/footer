@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
        <div className="section1">
-         <img className="logo" src="../public/Shaurya_Logo.png" alt="Shaurya Logo" />
+         <img className="logo" src="/Shaurya_Logo.png" alt="Shaurya Logo" />
          <div className="text">
             <p className='para'> <p className="yellow ">Shaurya</p> is not just a sports fest; its a vibrant celebration of athleticism and camaraderie, where the spirit of competition ignites passion and unity among colleges nationwide. Join us to witness the thrill of sports as we elevate the game together!</p>
             <h2><h2 className='yellow'>Explore</h2> On </h2>
@@ -21,7 +21,7 @@ export default function Footer() {
          <h2  >Contact Us</h2>
          <div className="images">
             <div className="person1">
-                <img className="image" src="../public/Tuhsin.jpg" alt="Tuhsin" />
+                <img className="image" src="/Tuhsin.jpg" alt="Tuhsin" />
                 <h3>Tuhsin Suhana </h3>
                 <h4>Publicity and Marketing Head</h4>
                 <div className="icons">
@@ -33,7 +33,7 @@ export default function Footer() {
                 <h4>Contact: 6002515029</h4>
             </div>
             <div className="person2">
-                <img className="image" src="../public/Hemant.jpg" alt="Hemant" />
+                <img className="image" src="/Hemant.jpg" alt="Hemant" />
                 <h3>Hemant Kamble</h3>
                 <h4>Publicity and Marketing Head</h4>
                 <div className="icons">
